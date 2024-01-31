@@ -16,7 +16,7 @@
 .recruit__2_Class {
 	position: absolute;
 	width: 100%;
-	height: 3963px;
+	height: 3561px;
 	background-color: rgba(248,242,242,1);
 	overflow: hidden;
 	--web-view-name: recruit – 2;
@@ -764,7 +764,7 @@ margin: 10px 0;
 	text-align: center;
 	border-bottom: 1px #3E3E3E solid;
 	padding-bottom: 10px;
-	top: 2631px;
+	top: 2141px;
 	position: absolute;
 	overflow: visible;
 	width: 197px;
@@ -782,14 +782,14 @@ margin: 10px 0;
 	width: 85%;
 	max-width: 480px;
 	height: 261px;
-	top: 2840px;
+	top: 2362px;
 	border-collapse: collapse;
 }
 .Text_cl_Class {
 	text-align: center;
 	border-bottom: 1px #3E3E3E solid;
 	padding-bottom: 10px;
-	top: 3077px;
+	top: 2603px;
 	position: absolute;
 	overflow: visible;
 	width: 197px;
@@ -806,7 +806,7 @@ margin: 10px 0;
 	position: absolute;
 	width: 284px;
 	height: 329px;
-	top: 3661px;
+	top: 3236px;
 	overflow: visible;
 }
 .n_2022_Club_mimi_Class {
@@ -850,7 +850,7 @@ margin: 10px 0;
 	position: absolute;
 	width: 318.801px;
 	height: 88.566px;
-	top: 3190px;
+	top: 2739px;
 	overflow: visible;
 }
 .n_30_Class {
@@ -905,7 +905,7 @@ margin: 10px 0;
 	position: absolute;
 	width: 318.801px;
 	height: 103.066px;
-	top: 3311px;
+	top: 2896px;
 	overflow: visible;
 }
 .n_40_Class {
@@ -1119,7 +1119,7 @@ table td.t_td_rec2 {
 
 .insta-class {
 	text-align: center;
-	top: 3790px;
+	top: 3389px;
 	width: 100%;
 	position: absolute;
 }
