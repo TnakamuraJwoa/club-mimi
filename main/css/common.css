@@ -1,0 +1,201 @@
+
+.header_Class {
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+.n_16_Class {
+	position: absolute;
+	width: 100%;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+.header-fram {
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+}
+
+.header-fram_Class {
+	width: 100%;
+	height: 70px;
+	fill: gainsboro;
+}
+
+.Group_Class {
+	position: absolute;
+	width: 44px;
+	height: 44px;
+	right: 1em;
+	top: 13px;
+	overflow: visible;
+	cursor: pointer;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: navi.html;
+}
+
+.Rectangle {
+	position: absolute;
+	overflow: visible;
+	width: 44px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+}
+
+.Rectangle_Class {
+	fill: aliceblue;
+}
+
+.Rectangle_t {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 2px;
+	left: 0px;
+	top: 0px;
+}
+
+.Rectangle_v {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 2px;
+	left: 0px;
+	top: 0px;
+}
+
+.Rectangle_x {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 2px;
+	left: 0px;
+	top: 0px;
+}
+
+.Preview_Class {
+	z-index: 1;
+	position: absolute;
+	width: 182px;
+	height: 36px;
+	left: 22px;
+	top: 17px;
+	overflow: visible;
+}
+
+.modal-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: rgba(0,0,0,50%);
+	padding: 40px 20px;
+	overflow: auto;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+    box-sizing: border-box;
+}
+
+@media (min-width:550px) {
+.modal-container {
+	width: 550px !important;
+	right: 0 !important;
+	left: unset !important;
+}
+}
+
+/*モーダル本体の擬似要素の指定*/
+.modal-container:before{
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+/*モーダル本体に「active」クラス付与した時のスタイル*/
+.modal-container.active{
+	z-index: 1;
+	opacity: 1;
+	visibility: visible;
+}
+/*モーダル枠の指定*/
+.modal-body{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 500px;
+	width: 90%;
+}
+/*モーダルを閉じるボタンの指定*/
+.modal-close{
+	position: absolute;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	top: -14px;
+	right: 3px;
+	width: 40px;
+	height: 40px;
+	font-size: 40px;
+	color: #fff;
+	cursor: pointer;
+}
+/*モーダル内のコンテンツの指定*/
+.modal-content{
+	background: #fff;
+	text-align: left;
+	padding: 30px;
+}
+
+.title-list-style {
+	font-family: 'Playfair Display', serif;
+	font-size: 28px;
+	color: #d3aa7e;
+	letter-spacing: 0.5px;
+}
+
+.sub-title-list-style {
+	color: #5d5d5d;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+body {
+	-webkit-animation: fadeIn 3s ease 0s 1 normal;
+	animation: fadeIn 3s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 1
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 1
+	}
+}

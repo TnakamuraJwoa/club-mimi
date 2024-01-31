@@ -1,0 +1,438 @@
+.mediaViewInfo {
+	--web-view-name: navi;
+	--web-view-id: navi;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+:root {
+	--web-view-ids: navi;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.navi_Class {
+	width: 375px;
+	height: 722px;
+	overflow: hidden;
+	cursor: pointer;
+	--web-view-name: navi;
+	--web-view-id: navi;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.navi-fram_Class {
+	opacity: 0.9;
+	fill: rgba(4,4,4,1);
+}
+.navi-fram {
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 722px;
+	left: 0px;
+	top: 0px;
+}
+.navi-img_Class {
+	position: absolute;
+	width: 247px;
+	height: 51px;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	top: 28px;
+	overflow: visible;
+}
+.navi-menu_Class {
+	position: absolute;
+	width: 100%;
+	height: 317px;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	top: 239px;
+	overflow: visible;
+}
+.n_8__2_Class {
+	position: absolute;
+	width: 100%;
+	height: 33px;
+	left: 0px;
+	top: 279px;
+	overflow: visible;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: cast.html;
+	cursor: pointer;
+}
+.Cast_Class {
+	left: 49px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Yu Gothic UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(251,248,251,1);
+}
+.n_10_Class {
+	fill: rgba(251,248,251,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_10 {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 2px;
+	right: 45px;
+	top: 18px;
+}
+.n_8__2_s_Class {
+	position: absolute;
+	width: 100%;
+	height: 33px;
+	left: 0px;
+	top: 71px;
+	overflow: visible;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: system.html;
+	cursor: pointer;
+}
+.System_Class {
+	left: 49px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 80px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Yu Gothic UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(251,248,251,1);
+}
+.n_10_u_Class {
+	fill: rgba(251,248,251,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_10_u {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 2px;
+	right: 45px;
+	top: 18px;
+}
+.n_8__2_v_Class {
+	position: absolute;
+	width: 100%;
+	height: 33px;
+	left: 0px;
+	top: 123px;
+	overflow: visible;
+}
+.Cast_Recruit_Class {
+	left: 49px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: recruit.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Yu Gothic UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(251,248,251,1);
+}
+.n_10_x_Class {
+	fill: rgba(251,248,251,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_10_x {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 2px;
+	right: 45px;
+	top: 18px;
+}
+.n_8__2_y_Class {
+	position: absolute;
+	width: 100%;
+	height: 33px;
+	left: 0px;
+	top: 175px;
+	overflow: visible;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: recruit.html;
+	cursor: pointer;
+}
+.Stuff_Recruit_Class {
+	left: 49px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 137px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Yu Gothic UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(251,248,251,1);
+}
+.n_10__Class {
+	fill: rgba(251,248,251,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_10_ {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 2px;
+	right: 45px;
+	top: 18px;
+}
+.n_8__2__Class {
+	position: absolute;
+	width:100%;
+	height: 33px;
+	left: 0px;
+	top: 227px;
+	overflow: visible;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: access.html;
+	cursor: pointer;
+}
+.Access_Class {
+	left: 49px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Yu Gothic UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(251,248,251,1);
+}
+.n_10_ba_Class {
+	fill: rgba(251,248,251,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_10_ba {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 2px;
+	right: 45px;
+	top: 18px;
+}
+.navi-btn_Class {
+	position: absolute;
+	width: 306px;
+	height: 57px;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	top: 471px;
+	overflow: visible;
+}
+.n_19_Class {
+	position: absolute;
+	width: 306px;
+	height: 57px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+@media (min-width:550px) {
+.n_19_Class {
+	display: none;
+}
+}
+.n_9__2_Class {
+	background-color: black;
+	position: absolute;
+	width: 128px;
+	height: 57px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.n_11_Class {
+	fill: transparent;
+	stroke: rgba(243,235,235,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_11 {
+	position: absolute;
+	overflow: visible;
+	width: 128px;
+	height: 57px;
+	left: 0px;
+	top: 0px;
+}
+.n_9__3_Class {
+	background-color: black;
+	position: absolute;
+	width: 128px;
+	height: 57px;
+	left: 178px;
+	top: 0px;
+	overflow: visible;
+}
+.n_11__Class {
+	fill: transparent;
+	stroke: rgba(243,235,235,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_11_ {
+	position: absolute;
+	overflow: visible;
+	width: 128px;
+	height: 57px;
+	left: 0px;
+	top: 0px;
+}
+.close-btn_Class {
+	position: absolute;
+	width: 28px;
+	height: 29px;
+	right: 1em;
+	top: 30px;
+	overflow: visible;
+}
+.n_1_Class {
+	fill: transparent;
+	stroke: rgba(245,242,242,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_1 {
+	overflow: visible;
+	position: absolute;
+	width: 30.878px;
+	height: 31.778px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+.n_2_Class {
+	fill: transparent;
+	stroke: rgba(245,242,242,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_2 {
+	overflow: visible;
+	position: absolute;
+	width: 30.878px;
+	height: 31.778px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+
+.tel_side_Class {
+	fill: rgba(204,204,204,1);
+}
+.tel_side {
+	overflow: visible;
+	position: absolute;
+	width: 27.125px;
+	height: 24.211px;
+	transform: matrix(1,0,0,1,81.6034,603.3947) rotate(6deg);
+	transform-origin: center;
+	left: -29px;
+	top: -586px;
+}
+
+
+.map_side_Class {
+	fill: rgba(204,204,204,1);
+}
+.map_side {
+	overflow: visible;
+	position: absolute;
+	width: 16.54px;
+	height: 26.629px;
+	transform: matrix(1,0,0,1,267.7728,602.1857) rotate(-1deg);
+	transform-origin: center;
+	left: -29px;
+	top: -586px;
+}
+
+.navi-menu_Class > div:active {
+	background-color: cadetblue;
+}

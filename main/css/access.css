@@ -1,0 +1,216 @@
+.mediaViewInfo {
+	--web-view-name: access;
+	--web-view-id: access;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: access;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.access_Class {
+	position: absolute;
+	width: 100%;
+	height: 1022px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: access;
+	--web-view-id: access;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+
+.RepeatGrid_Class {
+	position: absolute;
+	width: 24px;
+	height: 22px;
+	left: 10px;
+	top: 11px;
+	overflow: hidden;
+}
+.Group_s_Class {
+	position: absolute;
+	width: 24px;
+	height: 2px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_t_Class {
+	fill: rgba(181,166,171,1);
+}
+
+.Group_u_Class {
+	position: absolute;
+	width: 24px;
+	height: 2px;
+	left: 0px;
+	top: 9px;
+	overflow: visible;
+}
+.Rectangle_v_Class {
+	fill: rgba(181,166,171,1);
+}
+
+.Group_w_Class {
+	position: absolute;
+	width: 24px;
+	height: 2px;
+	left: 0px;
+	top: 18px;
+	overflow: visible;
+}
+.Rectangle_x_Class {
+	fill: rgba(181,166,171,1);
+}
+
+.n_1_Class {
+	fill: rgba(1,1,1,1);
+	stroke: rgba(78,73,73,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	left: 290px;
+	top: 361.084px;
+	transform: matrix(1,0,0,1,0,0);
+}
+
+.Access__Class {
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	top: 147px;
+	position: absolute;
+	overflow: visible;
+	width: 92px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Meiryo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(112,112,112,1);
+}
+.Club_mimi__Class {
+	-webkit-transform: translate(-50%, -50%);
+	left: 50%;
+	top: 180px;
+	position: absolute;
+	overflow: visible;
+	width: 159px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Meiryo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(112,112,112,1);
+}
+.n_2_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_2 {
+	overflow: visible;
+	position: absolute;
+	width: 320px;
+	height: 361px;
+	left: 28px;
+	top: 711px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_2022_Club_mimi_Class {
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	top: 987px;
+	position: absolute;
+	overflow: visible;
+	width: 163px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Han Sans JP;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(51,51,51,1);
+	letter-spacing: 1px;
+}
+.Preview__Class {
+	-webkit-transform: translate(-50%, -50%);
+	position: absolute;
+	width: 247px;
+	height: 48px;
+	left: 50%;
+	top: 859px;
+	overflow: visible;
+}
+
+.google-map-access_Class {
+	position: absolute;
+	top: 571px;
+	width: 100%;
+	max-width: 608px;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	height: 371px;
+}
+
+.addless-num {
+    -webkit-transform: translate(-50%, -50%);
+    left: 50%;
+	font-size: 13px;
+	position: absolute;
+	top: 268px;
+	width: 88%;
+	max-width: 602px;
+	margin: auto;
+}
+
+.addless {
+    -webkit-transform: translate(-50%, -50%);
+    left: 50%;
+	font-size: 14px;
+	position: absolute;
+	top: 295px;
+	width: 88%;
+	max-width: 602px;
+	margin: auto;
+}
+
+.insta-class {
+	text-align: center;
+	top: 907px;
+	width: 100%;
+	position: absolute;
+}
+
+.insta-img {
+width: 106px;
+}
